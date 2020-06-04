@@ -87,7 +87,7 @@
                 <div id="formm">
                     <input type="text" placeholder="Phone" class="borde-input">
                 </div>
-                <div id="formm">
+                <div>
                     <textarea placeholder="Message"></textarea class="borde-input">
                 </div>
                 <div id="formm">
