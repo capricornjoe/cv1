@@ -84,7 +84,7 @@ body {
 
 #portafolio .imagen {
     background-size: cover;
-    width: 250px;
+    width: 30%;
     height: 200px;
     float: left;
     margin: 25px;
