@@ -1,0 +1,257 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Estilos del header */
+
+#header-principal {
+    background: #0A1213;
+    color: #fff;
+    display: flow-root;
+    padding: 20px;
+}
+
+#header-principal .logo {
+    float: left;
+}
+
+#header-principal .logo span {
+    font-size: 22px;
+}
+
+#header-principal nav {
+    float: right;
+    padding: 8px;
+}
+
+#header-principal nav a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+#header-principal nav a:last-child {
+    margin-right: 0px;
+}
+
+
+/* Estilos del banner*/
+
+#banner {
+    background-image: url(../img/DSC_0516.JPG);
+    background-size: cover;
+    color: #C9AA59;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#banner .foto {
+    border-radius: 50%;
+    background-image: url(../img/youtube.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+}
+
+#banner h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 20px;
+}
+
+
+/* Estilos de la seccion de portafolio*/
+
+#portafolio {
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+#portafolio h2 {
+    color: #122836;
+    font-size: 66px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+#portafolio .imagen {
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 25px;
+}
+
+#portafolio .img-container {
+    display: flow-root;
+    width: 67.5%;
+    margin: 0 auto;
+}
+
+#portafolio .img1 {
+    background-image: url(../img/CSC_0137.JPG);
+}
+
+#portafolio .img2 {
+    background-image: url(../img/CSC_0522.JPG);
+}
+
+#portafolio .img3 {
+    background-image: url(../img/DSC_0064.JPG);
+}
+
+#portafolio .img4 {
+    background-image: url(../img/DSC_008.JPG);
+}
+
+#portafolio .img5 {
+    background-image: url(../img/DSC_0084.JPG);
+}
+
+#portafolio .img6 {
+    background-image: url(../img/DSC_0153.JPG);
+}
+
+#about {
+    background: #665B39;
+    color: #C9AA59;
+    display: flow-root;
+    padding: 40px 0;
+    padding-bottom: 60px;
+}
+
+#about h2 {
+    font-size: 76px;
+    text-align: center;
+}
+
+#about .info-about p {
+    float: left;
+    font-size: 26px;
+    margin: 5%;
+    width: 40%;
+}
+
+.info-about {
+    display: flow-root;
+}
+
+#about button {
+    width: 20%;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    background: rgb(138, 104, 17);
+    padding: 20px;
+    color: white;
+    margin-left: 40%;
+    box-shadow: none;
+}
+
+#about button:hover {
+    background: rgb(219, 195, 134);
+    color: rgb(32, 32, 32);
+}
+
+
+/* Estilos de la seccion contact me*/
+
+#contact {
+    margin-top: 30px;
+    display: flow-root;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 76px;
+    padding-left: 5%;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+
+#contact form input,
+#contact form textarea {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    height: 50px;
+    margin-bottom: 30px;
+    width: 600px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#contact button {
+    background: rgba(0, 0, 0, 0.637);
+    color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 12px;
+    width: 600px;
+}
+
+.borde-input {
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+#footer-principal {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+
+#footer-principal .footer-arriba {
+    background: rgba(0, 0, 0, 0.651);
+    display: flow-root;
+    padding: 40px 10%;
+}
+
+#footer-principal .footer-arriba h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#footer-principal .footer-arriba .info {
+    float: left;
+    margin-right: 12.5%;
+    width: 25%;
+}
+
+#footer-principal .footer-arriba .info:last-child {
+    margin-right: 0;
+}
+
+#footer-principal .footer-arriba p {
+    font-size: 16px;
+}
+
+#footer-principal .footer-abajo {
+    background: black;
+    padding: 40px 10%;
+    text-align: center;
+}
+
+#footer-principal .fab {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+}
+
+#footer-principal .fab:hover {
+    color: rgba(255, 255, 255, 0.548);
+}
